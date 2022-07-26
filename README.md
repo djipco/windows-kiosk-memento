@@ -8,3 +8,11 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
 ## Updates
 
 * [Disable Windows update](https://www.easeus.com/todo-backup-resource/how-to-stop-windows-10-from-automatically-update.html)
+
+## Auto-login
+
+## Auto-launch applications
+
+## Daily reboot
+
+More: https://derivative.ca/community-post/show-machine-setup-permanent-and-temporary-art-installations-windows-10/63572
