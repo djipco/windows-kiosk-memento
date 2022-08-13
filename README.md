@@ -5,9 +5,18 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
 
 * [Use group policy to hide notifications](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-security-center/wdsc-hide-notifications#use-group-policy-to-hide-all-notifications)
 
-## Updates
+## Windows Updates
 
-* [Disable Windows update](https://www.easeus.com/todo-backup-resource/how-to-stop-windows-10-from-automatically-update.html)
+#### Windows Pro, Enterprise and Education
+
+* [Disable Windows update through Group Policy](https://www.easeus.com/backup-recovery/how-to-stop-windows-10-from-automatically-update.html#part2)
+
+
+
+
+#### Windows Home
+
+[Disable Windows update through the registry](https://www.easeus.com/backup-recovery/how-to-stop-windows-10-from-automatically-update.html#part4)
 
 ## Auto-login
 
