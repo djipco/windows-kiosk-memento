@@ -1,14 +1,19 @@
 # Windows Kiosk Setup Memento
-Instructions to setup a standalone Windows machine for kiosk or installation purposes. This is a work in progress!
+
+This is my own checklist to set up a standalone Windows machine for installations that should run uninterrupted for long periods of time. This is still a work in progress!
 
 ## Dedicated User Account
 
+I usually create a dedicated user account for each project. This allows me to start with a blank slate and tweak the settings for each project individually.
+
 * Create new user account with lusrmgr.msc. 
 * Check "Password never expires". If computer is in a secure location, just leave the password blank (use caution).
-* Right-click user and go to "Member of" tab. Add it to admins group.
-* Log into new user and say no to everything!
+* Right-click user and go to "Member of" tab. Add it to admins group (if appropriate).
+* Log into new user and say no to every goddamn prompt!
 
 ## Task Scheduler
+
+You can use the task scheduler to start whatever appropriate program. This can be used to run a custom .bat file.
 
 * Schedule whatever should be started at boot
 * Leave a delay because Windows still does a bunch of stuff after it has officially started
@@ -48,7 +53,6 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
 * Open Task Manager > Startup Tab
 * Disable all unneeded programs (Cortana, Windows Security Notification Icon, Java Update Scheduler, etc.)
 
-
 ## Time Zone
 
 * Set the right timezone for the location.
@@ -56,12 +60,12 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
 ## Windows Defender
 
 * Disable it!
-* 
+
 ## Auto-login
 
 ## Daily reboot
 
-
+This may or may not be appropriate. It may allow the installation to simply recover without having to intervene.
 
 ## File Explorer
 
@@ -71,7 +75,7 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
   * Check Hide Empty Drives
   * Uncheck Hide extensions for known file types
 
-## USB POwer Management
+## USB Power Management
 
 * Start > Device Manager > Universal Serial Bus Controllers
 * Doubleclick on each USB Root Hub heading
