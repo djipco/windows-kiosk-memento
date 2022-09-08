@@ -23,27 +23,50 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
 
 ## Windows Updates
 
+* Disable automatic updates with Group Policy
+  * Start > gpedit.msc
+  *  Computer Configuration > Administrative Templates > Windows Components > Windows Update
+*  Double-click the Configure Automatic Updates policy on the right side.
+*  Check Disable to turn off the Policy
+
 #### Windows Pro, Enterprise and Education
 
 * [Disable Windows update through Group Policy](https://www.easeus.com/backup-recovery/how-to-stop-windows-10-from-automatically-update.html#part2)
-
-## Remote Control
-
-* Install remote control application such as [UltraVNC](https://uvnc.com) (if you can reach the machine directly by IP)
-* Install 
-
-## Time Zone
-
-* Set the right timezone for the location.
 
 #### Windows Home
 
 [Disable Windows update through the registry](https://www.easeus.com/backup-recovery/how-to-stop-windows-10-from-automatically-update.html#part4)
 
-## Auto-login
+## Remote Control
 
-## Auto-launch applications
+* Install remote control application such as [UltraVNC](https://uvnc.com) (if you can reach the machine directly by IP)
+  * Configure access 
+* Install TeamViewer, LogMeIn or AnyDesk for access through firewalls
+
+## Startup Programs
+
+* Open Task Manager > Startup Tab
+* Disable all unneeded programs (Cortana, Windows Security Notification Icon, Java Update Scheduler, etc.)
+
+
+## Time Zone
+
+* Set the right timezone for the location.
+
+## Windows Defender
+
+* Disable it!
+* 
+## Auto-login
 
 ## Daily reboot
 
 More: https://derivative.ca/community-post/show-machine-setup-permanent-and-temporary-art-installations-windows-10/63572
+
+## File Explorer
+
+* Control Panel > File Explorer Options > View tab 
+  * Check Always Show Menus
+  * Check Show hidden Files, Folders and Drives
+  * Check Hide Empty Drives
+  * Uncheck Hide extensions for known file types
