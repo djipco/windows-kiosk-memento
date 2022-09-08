@@ -61,7 +61,7 @@ Instructions to setup a standalone Windows machine for kiosk or installation pur
 
 ## Daily reboot
 
-More: https://derivative.ca/community-post/show-machine-setup-permanent-and-temporary-art-installations-windows-10/63572
+
 
 ## File Explorer
 
@@ -70,3 +70,14 @@ More: https://derivative.ca/community-post/show-machine-setup-permanent-and-temp
   * Check Show hidden Files, Folders and Drives
   * Check Hide Empty Drives
   * Uncheck Hide extensions for known file types
+
+## USB POwer Management
+
+* Start > Device Manager > Universal Serial Bus Controllers
+* Doubleclick on each USB Root Hub heading
+* Click on Power Management Tab and uncheck “Allow the Computer to turn off this device to save power"
+
+## More: 
+
+* https://derivative.ca/community-post/show-machine-setup-permanent-and-temporary-art-installations-windows-10/63572
+* https://github.com/brangerbriz/up-4evr-windows-10
