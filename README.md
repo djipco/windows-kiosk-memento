@@ -85,3 +85,4 @@ This may or may not be appropriate. It may allow the installation to simply reco
 
 * https://derivative.ca/community-post/show-machine-setup-permanent-and-temporary-art-installations-windows-10/63572
 * https://github.com/brangerbriz/up-4evr-windows-10
+* https://learn.microsoft.com/en-us/windows/configuration/kiosk-prepare
