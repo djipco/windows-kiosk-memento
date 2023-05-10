@@ -13,7 +13,7 @@ I usually create a dedicated user account for each project. This allows me to st
 
 ## Language
 
-If your project will travel to various parts of the world, it's probably safer to set the dedicated account to use English as its language. This will make it easier for a majoritu of people to help you troubleshoot the project if the need arises.
+If your project will travel to various parts of the world, it's probably safer to set the dedicated account to use English as its language. This will make it easier for a majoritu of people to help you troubleshoot the project if the need arises. You can do that in the **Time & Language** section of the settings.
 
 ## Task Scheduler
 
