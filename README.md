@@ -11,6 +11,10 @@ I usually create a dedicated user account for each project. This allows me to st
 * Right-click user and go to "Member of" tab. Add it to admins group (if appropriate).
 * Log into new user and say no to every goddamn prompt!
 
+## Language
+
+If your project will travel to various parts of the world, it's probably safer to set the dedicated account to use English as its language. This will make it easier for a majoritu of people to help you troubleshoot the project if the need arises.
+
 ## Task Scheduler
 
 You can use the task scheduler to start whatever appropriate program. This can be used to run a custom .bat file.
