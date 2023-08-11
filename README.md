@@ -26,6 +26,10 @@ You can use the task scheduler to start whatever appropriate program. This can b
 
 * Go to Power & Sleep settings and make sure the computer never sleeps (high performance)
 
+## System Sounds
+
+It might be appropriate to disable system sounds. You can do that by going to the **Sound** control panel and selecting "No sound" as the Sound Scheme. You can also uncheck "Play Windows Startup Sound".
+
 ## Notifications
 
 * [Use group policy to hide notifications](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-security-center/wdsc-hide-notifications#use-group-policy-to-hide-all-notifications)
