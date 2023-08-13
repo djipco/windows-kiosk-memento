@@ -30,6 +30,8 @@ You can use the task scheduler to start whatever appropriate program. This can b
 
 It might be appropriate to disable system sounds. You can do that by going to the **Sound** control panel and selecting "No sound" as the Sound Scheme. You can also uncheck "Play Windows Startup Sound".
 
+![sound2](https://github.com/djipco/windows-kiosk-memento/assets/3246696/73d63fdf-d624-41cb-bcc1-1c76348215c1)
+
 ## Notifications
 
 * [Use group policy to hide notifications](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-security-center/wdsc-hide-notifications#use-group-policy-to-hide-all-notifications)
