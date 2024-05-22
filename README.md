@@ -69,7 +69,7 @@ It might be appropriate to disable system sounds. You can do that by going to th
 
 ## Windows Defender
 
-* Disable it!
+* Disable it! (considering that the machine is properly isolated)
 
 ## Auto-login
 
