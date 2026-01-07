@@ -93,7 +93,7 @@ This may or may not be appropriate. It may allow the installation to simply reco
 * Click on Power Management Tab and uncheck “Allow the Computer to turn off this device to save power"
 
 ## Automatic Startup Repair
-In Windows 11, if the computer was not properly shut down, it is very likely that on the next boot you will be presented with the Automatic Startup Repair screen (pale blue). This prevents the computer from continuing to boot. To disable it:
+In Windows 11, if the computer was not properly shut down, it is very likely that on the next boot you will be presented with the **Automatic Startup Repair** screen (pale blue). This prevents the computer from continuing to boot. To disable it:
 ```
 bcdedit /set {default} recoveryenabled No
 bcdedit /set {default} bootstatuspolicy ignoreallfailures
