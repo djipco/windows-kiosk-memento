@@ -101,7 +101,7 @@ bcdedit /set {default} bootstatuspolicy ignoreallfailures
 
 ## Boot When Powered On
 
-Must BIOS software can be set so that the computer boots when power comes back. Enable that.
+Most BIOS software can be set so that the computer boots when power comes back. Enable that.
 
 ## UPS
 
