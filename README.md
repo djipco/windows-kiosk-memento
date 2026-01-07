@@ -6,21 +6,22 @@ This is my own checklist to set up a standalone Windows machine for installation
 
 I usually create a dedicated user account for each project. This allows me to start with a blank slate and tweak the settings for each project individually.
 
-* Create new user account with lusrmgr.msc. 
-* Check "Password never expires". If computer is in a secure location, just leave the password blank (use caution).
+* Create new user account with **lusrmgr.msc**
+* Check "Password never expires". If computer is in a secure location, just leave the password blank (use caution). Alternatively, use auto-login (see below).
 * Right-click user and go to "Member of" tab. Add it to admins group (if appropriate).
 * Log into new user and say no to every goddamn prompt!
 
 ## Language
 
-If your project will travel to various parts of the world, it's probably safer to set the dedicated account to use English as its language. This will make it easier for a majority of people to help you troubleshoot the project if the need arises. You can do that in the **Time & Language** section of the settings.
+If your project will travel to various parts of the world, it's probably safer to set the dedicated account to use **English** as its language. This will make it easier for a majority of people to help you troubleshoot the project if the need arises. You can do that in the **Time & Language** section of the settings.
 
 ## Task Scheduler
 
-You can use the task scheduler to start whatever appropriate program. This can be used to run a custom .bat file.
+You can use the task scheduler to start whatever appropriate program. This can also be used to run a custom .bat file.
 
 * Schedule whatever should be started at boot
 * Leave a delay because Windows still does a bunch of stuff after it has officially started
+* You can also use AutoHotKey for more advanced scripting
 
 ## Power
 
@@ -54,9 +55,7 @@ It might be appropriate to disable system sounds. You can do that by going to th
 
 ## Remote Control
 
-* Install remote control application such as [UltraVNC](https://uvnc.com) (if you can reach the machine directly by IP)
-  * Configure access 
-* Install TeamViewer, LogMeIn or AnyDesk for access through firewalls
+* Install remote control application such as RustDesk and configure access
 
 ## Startup Programs
 
@@ -90,6 +89,17 @@ This may or may not be appropriate. It may allow the installation to simply reco
 * Start > Device Manager > Universal Serial Bus Controllers
 * Doubleclick on each USB Root Hub heading
 * Click on Power Management Tab and uncheck “Allow the Computer to turn off this device to save power"
+
+## Automatic Startup Repair
+In Windows 11, if the computer was not properly shut down, it is very likely that on the next boot you will be presented with the Automatic Startup Repair screen (pale blue). This prevents the computer from continuing to boot. To disable it:
+```
+bcdedit /set {default} recoveryenabled No
+bcdedit /set {default} bootstatuspolicy ignoreallfailures
+```
+
+## Boot When Powered On
+
+Must BIOS software can be set so that the computer boots when power comes back. Enable that.
 
 ## More: 
 
