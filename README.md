@@ -6,7 +6,7 @@ This is my own checklist to set up a standalone Windows machine for installation
 
 I usually create a dedicated user account for each project. This allows me to start with a blank slate and tweak the settings for each project individually.
 
-* Create new user account with **lusrmgr.msc**
+* Create new user account with `lusrmgr.msc`
 * Check "Password never expires". If computer is in a secure location, just leave the password blank (use caution). Alternatively, use auto-login (see below).
 * Right-click user and go to "Member of" tab. Add it to admins group (if appropriate).
 * Log into new user and say no to every goddamn prompt!
@@ -40,7 +40,7 @@ It might be appropriate to disable system sounds. You can do that by going to th
 ## Windows Updates
 
 * Disable automatic updates with Group Policy
-  * Start > gpedit.msc
+  * Start > `gpedit.msc`
   *  Computer Configuration > Administrative Templates > Windows Components > Windows Update
 *  Double-click the Configure Automatic Updates policy on the right side.
 *  Check Disable to turn off the Policy
@@ -55,7 +55,7 @@ It might be appropriate to disable system sounds. You can do that by going to th
 
 ## Remote Control
 
-* Install remote control application such as RustDesk and configure access
+* Install remote control application such as [RustDesk](https://rustdesk.com) and configure access
 
 ## Startup Programs
 
@@ -71,6 +71,8 @@ It might be appropriate to disable system sounds. You can do that by going to th
 * Disable it! (considering that the machine is properly isolated)
 
 ## Auto-login
+
+The procedure is available on [this page](https://learn.microsoft.com/en-us/troubleshoot/windows-server/user-profiles-and-logon/turn-on-automatic-logon).
 
 ## Daily reboot
 
@@ -100,6 +102,10 @@ bcdedit /set {default} bootstatuspolicy ignoreallfailures
 ## Boot When Powered On
 
 Must BIOS software can be set so that the computer boots when power comes back. Enable that.
+
+## UPS
+
+It might be a good idea to invest in a UPS that normalizes the electrical current and that can properly shut down the installation when a power outage is detected.
 
 ## More: 
 
