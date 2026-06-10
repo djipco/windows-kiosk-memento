@@ -39,11 +39,7 @@ It might be appropriate to disable system sounds. You can do that by going to th
 
 ## Windows Updates
 
-* Disable automatic updates with Group Policy
-  * Start > `gpedit.msc`
-  *  Computer Configuration > Administrative Templates > Windows Components > Windows Update
-*  Double-click the Configure Automatic Updates policy on the right side.
-*  Check Disable to turn off the Policy
+*Install the [StopUpdates10](https://greatis.com/stopupdates10/) freeware.
 
 #### Windows Pro, Enterprise and Education
 
