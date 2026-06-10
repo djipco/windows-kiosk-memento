@@ -39,15 +39,7 @@ It might be appropriate to disable system sounds. You can do that by going to th
 
 ## Windows Updates
 
-*Install the [StopUpdates10](https://greatis.com/stopupdates10/) freeware.
-
-#### Windows Pro, Enterprise and Education
-
-* [Disable Windows update through Group Policy](https://www.easeus.com/backup-recovery/how-to-stop-windows-10-from-automatically-update.html#part2)
-
-#### Windows Home
-
-[Disable Windows update through the registry](https://www.easeus.com/backup-recovery/how-to-stop-windows-10-from-automatically-update.html#part4)
+* Install the [StopUpdates10](https://greatis.com/stopupdates10/) freeware.
 
 ## Remote Control
 
